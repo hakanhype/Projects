@@ -1,0 +1,78 @@
+.button-list {
+    display: none; 
+    position: absolute;
+    background-color: #f9f9f9;
+}
+
+
+.button-list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}   
+
+
+.button-list a:hover {
+    background-color: #f1f1f1;
+}
+
+.button:hover .button-list {    
+    display: block;
+}   
+
+.button-row{
+    display: flex;  
+    background-color: white;
+    height: 60px;
+    padding-left: 60px;
+    padding-top: 0;
+    width: 100%;
+}
+.button-row a{
+    padding-left:15px;  
+    padding-right: 15px;
+    padding-top: 20px;
+    text-decoration: none;
+    color:black;
+    z-index: 2;
+    display: block;
+    
+}
+
+
+.button-row a:hover {   
+    background-color: red;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom-style: none;
+    border-collapse: collapse;  
+    background-size: 100% auto;
+    background-image: url('opel-crossland-exterior-front-16x9-crsol21-e01-002.jpeg');}
+
+img {
+    position: absolute;
+    top: 10px; 
+    left: 0; 
+    padding-left: 14px;
+}
+iframe{
+    position: relative; 
+    display: flex;
+    text-align: center;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: 50vh;
+}
+li,p,h1{
+    color: white;
+}
+.container{
+   margin-top: 25vh;
+   width: 50%;
+   margin-right: auto;
+   margin-left: auto;}
